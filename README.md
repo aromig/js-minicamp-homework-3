@@ -11,7 +11,7 @@
 	* Methods
 	  * Methods are functions that belong to an object. You can access them just like any other function but you preface them with the object name. e.g. object.function();
 	* for in loop
-	  * This is a type of 'for loop' where it goes through an entire collection (array/object) without having to use an index counter. e.g. for (var key in object) { object[key] = value; }
+	  * This is a type of 'for loop' where it iterates (goes through) an entire object. e.g. for (var key in object) { object[key] = value; }
 	* dot notation vs bracket notation
 	  * These are different ways of referencing object properties. Dot notation may be easier to read at times. Bracket notation is especially useful if the property is being referenced using variables (such as when the variable is passed into a function or a for in loop) or has special characters. *** The general rule is to use dot notation if possible. If you can't, use bracket notation.
 
